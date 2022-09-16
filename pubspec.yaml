@@ -1,0 +1,26 @@
+name: analog_clock
+description: A new Flutter project.
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.16.2 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^1.0.0
+
+flutter:
+  fonts:
+    - family: RobotoMono
+      fonts:
+        - asset: fonts/roboto-mono/RobotoMono-Medium.ttf
+          weight: 500
+        - asset: fonts/roboto-mono/RobotoMono-Bold.ttf
+          weight: 700
